@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD de Productos</title>
+</head>
+<body>
+    <h1>CRUD de Productos</h1>
+    
+    <!-- Formulario para agregar productos -->
+    <form id="product-form">
+        <input type="text" id="product-name" placeholder="Nombre del producto" required>
+        <input type="number" id="product-price" placeholder="Precio" required>
+        <button type="submit">Agregar Producto</button>
+    </form>
+    
+    <!-- Tabla para mostrar los productos -->
+    <table id="product-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>cantidad</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se agregarán los productos dinámicamente -->
+        </tbody>
+    </table>
+
+    <script src="crud.js"></script>
+</body>
+</html>
